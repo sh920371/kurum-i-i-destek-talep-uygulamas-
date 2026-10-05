@@ -1,0 +1,14 @@
+username,password,name,department,is_admin
+it_admin,1234,Ahmet Yilmaz,Bilgi Islem,True
+user1,1234,Zeynep Kaya,Bilgi Islem,False
+yazi_admin,1234,Ayse Demir,Yazi Isleri,True
+user2,1234,Mehmet Sahin,Yazi Isleri,False
+seher,seher123,seher Çetin,Bilgi İşlem,False
+hatice,hatice123,Hatice Çetin,Yazı İşleri,True
+sureyya,sureyya123,sureyya atacan,Bilgi İşlem,True
+erkan,erkan123,erkan çelik,Bilgi İşlem,True
+ozkan,ozkan123,Özkan Ergin,Bilgi İşlem,True
+elif,elif123,Elif Koç,Yazı İşleri,True
+ceren,ceren123,Ceren Aydın,İdari Hizmetler,True
+deniz,deniz123,Deniz Aksoy,Hukuk İşleri,True
+sıdıka,sıdıka123,Sıdıka Bozkurt,Bilgi İşlem,True

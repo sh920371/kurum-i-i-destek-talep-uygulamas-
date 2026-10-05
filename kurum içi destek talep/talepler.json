@@ -1,0 +1,136 @@
+[
+    {
+        "id": 2,
+        "department": "İdari Hizmetler",
+        "sender_username": "hatice",
+        "sender_name": "Hatice Çetin",
+        "status": "Beklemede",
+        "created_at": "2026-07-16 17:19:52",
+        "sender_info": "Yazı İşleri / Hatice Çetin",
+        "subject": "Güvenlik/Kartlı Geçiş Sistemleri",
+        "description": "kartım okumuyor artık yenilenmesi gerekli"
+    },
+    {
+        "id": 27,
+        "department": "Ortak",
+        "sender_username": "seher",
+        "sender_name": "seher Çetin",
+        "status": "Beklemede",
+        "created_at": "2026-07-17 16:16:34",
+        "sender_info": "Bilgi İşlem / seher Çetin",
+        "recipient": "yazi_admin",
+        "description": "acil bakar mısınız"
+    },
+    {
+        "id": 31,
+        "department": "Ortak",
+        "sender_username": "ozkan",
+        "sender_name": "Özkan Ergin",
+        "status": "Beklemede",
+        "created_at": "2026-07-22 14:26:32",
+        "sender_info": "Bilgi İşlem / Özkan Ergin",
+        "recipient": "erkan",
+        "description": "sfesfes"
+    },
+    {
+        "id": 33,
+        "department": "Bilgi İşlem",
+        "sender_username": "ceren",
+        "sender_name": "Ceren Aydın",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:05:27",
+        "sender_info": "İdari Hizmetler / Ceren Aydın",
+        "device_type": "Masaüstü Bilgisayar ",
+        "problem_type": "Yazılımsal Hata ",
+        "description": "mavi ekran veriyor"
+    },
+    {
+        "id": 34,
+        "department": "Yazı İşleri",
+        "sender_username": "ceren",
+        "sender_name": "Ceren Aydın",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:07:34",
+        "sender_info": "İdari Hizmetler / Ceren Aydın",
+        "subject": "Resmi Yazışma İşlemleri",
+        "description": "Gerede Halk Kütüphanesine geri dönüş yapar mısınız"
+    },
+    {
+        "id": 35,
+        "department": "Hukuk İşleri",
+        "sender_username": "ceren",
+        "sender_name": "Ceren Aydın",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:08:54",
+        "sender_info": "İdari Hizmetler / Ceren Aydın",
+        "subject": "Hukuki Mütalaa/Görüş Talebi ",
+        "description": "Önemli konu odama uğrayabilir misiniz"
+    },
+    {
+        "id": 36,
+        "department": "Ortak",
+        "sender_username": "ceren",
+        "sender_name": "Ceren Aydın",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:10:02",
+        "sender_info": "İdari Hizmetler / Ceren Aydın",
+        "recipient": "Herkese",
+        "description": "Arkadaşlar yarın hava şartlarından dolayı tatil ilan edildi işe gelmenize gerek yok"
+    },
+    {
+        "id": 37,
+        "department": "Bilgi İşlem",
+        "sender_username": "deniz",
+        "sender_name": "Deniz Aksoy",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:12:03",
+        "sender_info": "Hukuk İşleri / Deniz Aksoy",
+        "device_type": "Ağ/İnternet",
+        "problem_type": "Bağlantı Sorunu ",
+        "description": "internet yok acil destek lazım"
+    },
+    {
+        "id": 38,
+        "department": "Yazı İşleri",
+        "sender_username": "deniz",
+        "sender_name": "Deniz Aksoy",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:13:20",
+        "sender_info": "Hukuk İşleri / Deniz Aksoy",
+        "subject": "Arşiv/Dosyalama Talebi",
+        "description": "Kartalkaya davası dosyasını iletebilir misiniz"
+    },
+    {
+        "id": 39,
+        "department": "İdari Hizmetler",
+        "sender_username": "deniz",
+        "sender_name": "Deniz Aksoy",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:14:15",
+        "sender_info": "Hukuk İşleri / Deniz Aksoy",
+        "subject": "Resmi Araç/Şoför Talebi",
+        "description": "yarın 12-2 arası lazım"
+    },
+    {
+        "id": 40,
+        "department": "Ortak",
+        "sender_username": "deniz",
+        "sender_name": "Deniz Aksoy",
+        "status": "Beklemede",
+        "created_at": "2026-07-27 00:15:29",
+        "sender_info": "Hukuk İşleri / Deniz Aksoy",
+        "recipient": "hatice",
+        "description": "Önemli bir konu var odama gelebilir misiniz"
+    },
+    {
+        "id": 41,
+        "department": "Yazı İşleri",
+        "sender_username": "sıdıka",
+        "sender_name": "Sıdıka Bozkurt",
+        "status": "Beklemede",
+        "created_at": "2026-08-04 09:07:49",
+        "sender_info": "Bilgi İşlem / Sıdıka Bozkurt",
+        "subject": "Tebligat/Posta İşlemleri",
+        "description": "acil"
+    }
+]

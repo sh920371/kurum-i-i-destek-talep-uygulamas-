@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Bilgi İşlem</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>231</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Yeni Destek Talebi</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Cihaz Türü:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <item>
+            <property name="text">
+             <string>Seçiniz</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Masaüstü Bilgisayar </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Dizüstü Bilgisayar </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yazıcı/Tarayıcı</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Ağ/İnternet</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diğer</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Departman/Personel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Problem Türü:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_2">
+           <item>
+            <property name="text">
+             <string>Seçiniz</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yazılımsal Hata </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Donanım Arızası</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bağlantı Sorunu </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Kurulum Talebi</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diğer</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Açıklama:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Destek Talebini Gönder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>531</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QFrame" name="frame">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>440</y>
+           <width>521</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seçili Talebin Durumu:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_3">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>10</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Durumu Güncelle ve Kaydet</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>511</width>
+           <height>421</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Yazı İşleri</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>231</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Yeni Destek Talebi</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Konu:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_4">
+           <item>
+            <property name="text">
+             <string>Seçiniz</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Gelen/Giden Evrak Kaydı</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Arşiv/Dosyalama Talebi</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Resmi Yazışma İşlemleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Tebligat/Posta İşlemleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diğer</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>Departman/Personel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Açıklama:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_2"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>Destek Talebini Gönder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>531</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QFrame" name="frame_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>440</y>
+           <width>521</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seçili Talebin Durumu:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_7">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>10</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Durumu Güncelle ve Kaydet</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>511</width>
+           <height>421</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>İdari Hizmetler</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>231</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Yeni Destek Talebi</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Konu:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_5">
+           <item>
+            <property name="text">
+             <string>Seçiniz</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Teknik Bakım/Onarım</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Sarf Malzeme/Kırtasiye Talebi</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Temizlik /Hijyen Talepleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Demirbaş/Ofis Mobilyası Talebi</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Lojistik/Taşıma İşlemleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yemekhane/ Kafeterya Hizmetleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Resmi Araç/Şoför Talebi</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Güvenlik/Kartlı Geçiş Sistemleri</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Toplantı/Konferans Salonu Rezervasyonu</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diğer</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Departman/Personel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Açıklama:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_3"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>Destek Talebini Gönder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>531</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QFrame" name="frame_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>440</y>
+           <width>521</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seçili Talebin Durumu:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_8">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>10</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Durumu Güncelle ve Kaydet</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>511</width>
+           <height>421</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Hukuk İşleri</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>231</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Yeni Destek Talebi</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Konu:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_6">
+           <item>
+            <property name="text">
+             <string>Seçiniz</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Hukuki Mütalaa/Görüş Talebi </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Dava İtiraz/Savunma  Hazırlığı</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Sözleşme /Protokol İncelemesi </string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>İdari Soruşturma/İnceleme</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Mevzuat/Yönetmelik Değişikliği</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Diğer </string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>Departman/Personel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>Açıklama:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_4"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>Destek Talebini Gönder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_8">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>531</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QFrame" name="frame_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>440</y>
+           <width>521</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seçili Talebin Durumu:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_9">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>10</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Durumu Güncelle ve Kaydet</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>511</width>
+           <height>421</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Ortak Duyuru/İstek</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>231</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Yeni Destek Talebi</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Kime:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_10">
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>Departman/Personel:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_5"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Açıklama:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_5"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="text">
+            <string>Destek Talebini Gönder</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_10">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>10</y>
+          <width>531</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QFrame" name="frame_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>440</y>
+           <width>521</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Seçili Talebin Durumu:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_11">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>10</y>
+            <width>151</width>
+            <height>31</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>10</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Durumu Güncelle ve Kaydet</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>511</width>
+           <height>421</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
